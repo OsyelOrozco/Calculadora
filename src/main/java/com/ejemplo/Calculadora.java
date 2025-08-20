@@ -18,13 +18,13 @@ public class Calculadora {
     }
 
     public int restar(int a, int b) {
-        int resultado = a + b;
+        int resultado = a - b;
         historial.add((double) resultado);
         return resultado;
     }
 
     public int multiplicar(int a, int b) {
-        int resultado = a / b;
+        int resultado = a * b;
         historial.add((double) resultado);
         return resultado;
     }
